@@ -21,11 +21,8 @@ const ItemListContainer = () => {
         const { limit, page, category, stock, sort } = params;
         const response = await getProducts(limit, page, category, stock, sort);
         if (response.status === 'success') {
-            // * Timeout to simulate delay on rendering
-            setTimeout(() => {
-                setLoading(false);
-                setProds(response.payload);
-            }, 1000);
+            setLoading(false);
+            setProds(response.payload);
         }
     }
 
