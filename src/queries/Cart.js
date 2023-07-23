@@ -1,4 +1,4 @@
-const CART_API = 'https://natufriend-server.onrender.com/api/carts'
+const CART_API = 'http://localhost:3000/api/carts'
 const HEADERS = { 'Content-Type': 'application/json' }
 
 /** 

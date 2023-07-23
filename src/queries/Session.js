@@ -1,4 +1,4 @@
-const SESSION_API = 'https://natufriend-server.onrender.com/api/session'
+const SESSION_API = 'http://localhost:3000/api/session'
 const HEADERS = { 'Content-Type': 'application/json' }
 
 export const getCurrentSession = async () => {

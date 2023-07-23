@@ -1,5 +1,5 @@
 //import { collection, doc, getDoc, getDocs } from "firebase/firestore";
-const PRODUCTS_API = 'https://natufriend-server.onrender.com/api/products'
+const PRODUCTS_API = 'http://localhost:3000/api/products'
 export const getProducts = async (limit, page, category, stock, sort) => {
     try {
 
